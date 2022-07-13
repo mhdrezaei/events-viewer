@@ -1,7 +1,10 @@
 import EventItem from "./event-item";
+import classes from "./event-list.module.css"
 
 function EventList({items}){
     return(
+        <div className={classes.wraper}>
+            <h2>Featured Events</h2>
         <ul>
         {items.map((item) => (
              <EventItem 
@@ -15,6 +18,7 @@ function EventList({items}){
 
         ))}
         </ul>
+        </div>
     );
 }
 

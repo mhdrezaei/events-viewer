@@ -1,0 +1,87 @@
+.item {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: 3rem;
+  border: 3px solid #fff;
+  box-shadow: 0px 2px 14px 1px #000;
+}
+.item:hover > .image {
+  filter: blur(2px);
+}
+.item:hover > .detail .eventinfo .title,
+.item:hover > .detail .eventinfo .time,
+.item:hover > .detail .eventinfo .address {
+  background-color: #cccccc;
+}
+.item .image {
+  display: block;
+  width: 100%;
+  transition: all 0.5s;
+}
+.detail {
+  width: 100%;
+  position: absolute;
+  top: 7rem;
+}
+.eventinfo {
+  margin: 0 3rem;
+}
+.title {
+  display: inline-block;
+  font-size: 4rem;
+  background-color: #ccccccba;
+  padding: 1rem;
+  transition: all 0.5s;
+}
+.time {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: #cccccc73;
+  margin-bottom: 1rem;
+  transition: all 0.5s;
+}
+.time svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.address {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-block;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  background-color: #cccccc73;
+  transition: all 0.5s;
+}
+.address svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+.explore {
+  display: flex;
+}
+.explore a {
+    display: flex;
+  font-size: 2rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 2rem;
+  color: #000;
+  background-color: #cccccc73;
+
+  transition: all 0.5s;
+}
+.explore a:hover {
+  font-size: 2.2rem;
+  background-color: #cccccc;
+}
+.explore a svg {
+  width: 2.5rem;
+  height: 2.5rem;
+}
