@@ -23,7 +23,7 @@ const DUMMY_EVENTS = [
       id: 'e3',
       title: 'Class for extroverts',
       description:
-        'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
+        'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
       location: 'My Street 12, 10115 Broke City',
       date: '2022-04-10',
       image: 'images/class-event.jpg',
