@@ -1,10 +1,12 @@
 import EventItem from "./event-item";
 import classes from "./event-list.module.css"
+import FilterEvents from "./filter-events";
 
 function AllEvents({items}){
     return(
         <div className={classes.wraper}>
             <h2>All Events</h2>
+            <FilterEvents/>
         <ul>
         {items.map((item) => (
              <EventItem 
