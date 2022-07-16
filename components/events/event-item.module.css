@@ -59,14 +59,14 @@
   transition: all 0.5s;
 }
 .address svg {
-    width: 1.5rem;
-    height: 1.5rem;
-  }
+  width: 1.5rem;
+  height: 1.5rem;
+}
 .explore {
   display: flex;
 }
 .explore a {
-    display: flex;
+  display: flex;
   font-size: 2rem;
   position: absolute;
   bottom: 0;
